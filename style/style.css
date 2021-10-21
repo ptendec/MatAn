@@ -1,0 +1,297 @@
+@font-face { 
+  font-family: 'Monsterrat'; 
+  src: url(../fonts/11952.ttf);
+  font-weight: normal; 
+  font-style: normal; 
+
+}
+
+p{
+	display: inline-block;
+	margin: 0;
+}
+body{
+	margin: 0;
+}
+
+.header{
+	width: 100%;
+	height: 200px;
+	background-color: #1f18ab;
+}
+.header_li{
+	width: 1200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+.a_1, 
+.a_2,
+.a_3,
+.a_4{
+	margin-top: 73px;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	letter-spacing: 2px;
+	font-family: "Monsterrat";
+	font-size: 25px;
+	display: inline-block;
+}
+.a_3{
+	margin-left: 200px;
+}
+.a_1:hover, 
+.a_2:hover,
+.a_3:hover,
+.a_4:hover{
+	background-color: #2e25e8;
+	color: #fff;
+}
+.content{
+	width: 100%;
+	height: 400px;
+	background-color: #fff;
+	margin: 0;
+	padding-top: 100px;
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+	font-family: "Monsterrat";
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #1f18ab;
+
+}
+.form{
+	width: 100%;
+	height: 570px;
+	padding-bottom: 75px;
+	background-color: #1f18ab;
+	padding-top: 30px;
+}
+.form_p{
+	width: 180px;
+	font-family: "Monsterrat";
+	margin-top: 20px;
+}
+.textarea{
+	margin-top: 20px;
+}
+h2{
+	font-size: 50px;
+	font-family: "Monsterrat";
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+.input_from{
+	width: 700px;
+	height: 55px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;	
+	display: block;
+}
+.textarea{
+	display: block;
+	padding-top: 10px;
+	width: 700px;
+	height: 105px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.submit{
+	width: 700px;
+	height: 55px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;	
+	display: block;
+	cursor: pointer;
+}
+.submit:hover{
+	transition: letter-spacing 0s ease-out 0s;
+	transition: font-size 0s ease-out 0s;
+	letter-spacing: 2px;
+	font-size: 22px;
+	
+}
+.lesson{
+	width: 800px;
+	height: 200px;
+	background-color: #fff;
+	border: 3px solid #1f18ab;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+	cursor: pointer;
+}
+.lessons_p{
+	padding-top: 5px;
+	margin-top: 0px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	font-family: "Monsterrat";
+	font-size: 23px;
+	background-color: #1f18ab;
+	color: #fff;
+}
+.course_content{
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+.p_con,
+.text_con{
+	margin-left: 0px;
+	margin-top: 15px;
+	display: inline-block;
+	font-family: "Monsterrat";
+	text-align: center;
+}
+.p_con{
+	text-align: center;
+	width: 100%;
+
+}
+.lesson_1:hover {
+	box-shadow: 13px 12px 10px -10px rgba(0,0,0,0.6);
+	text-decoration: underline;
+}
+.video_1{
+	width: 100%;
+	height: 500px;
+}
+.video-js{
+	outline: none;
+	padding: 0;
+	margin: 0;
+}
+.div_video_1{
+	padding-top: 50px;
+	width: 900px;
+	display: block; 	
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.charity{
+	width: 100%;
+	height: 400px;
+}
+.rekvisit{
+	color: #1f18ab;
+}
+.rekvisit_1{
+	color: #1f18ab;
+	font-size: 35px;
+	margin-top: 30px;
+}
+.first_donut{
+	width: 800px;
+	height: 200px;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+}
+h3{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-family: "Monsterrat";
+	color: #1f18ab;
+	font-size: 45px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+	text-decoration: underline;
+}
+.donut_text{
+	font-family: "Monsterrat";
+	color: #1f18ab;
+	font-size: 45px;
+	padding-bottom: 50px;
+	text-decoration: underline;
+}
+.popup_section{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.popup_window{
+	margin-left: 33%;
+	margin-top: 140px;
+	display: block;
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	background-color: #fff;
+	cursor: default;
+}
+.popup_section:focus{
+	display: none;
+}
+.popup_text{
+	font-family: "Monsterrat";
+	font-size: 40px;
+	color: #1f18ab;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 700;
+
+}
+.popup_button{
+	background-color: #fff;
+	border: none;
+	font-size: 20px;
+	font-family: "Monsterrat";
+	font-weight: 700;
+	cursor: pointer;
+	color: #1f18ab;
+	display: block;
+	float: right;
+	outline: none;
+}
+.popup_button:hover {
+	border: 2px solid #1f18ab;
+}
+.hw{
+	font-size: 25px;
+	font-family: "Monsterrat";
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 10px;
+}
+.hw_p{
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: "Monsterrat";
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+}
